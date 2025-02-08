@@ -1,8 +1,34 @@
-React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! 🚀 This project showcases my skills, projects, and experiences in web development.
 
-Currently, two official plugins are available:
+## 🌟 Live Demo
+Check out the live version: https://portfolio-aditi-londhe.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- **Frontend:** React.js, Tailwind CSS
+- **Build Tool:** Vite
+- **Deployment:** Vercel 
+
+## 🚀 Getting Started
+### **1. Clone the Repository**
+```sh
+git clone https://github.com/aditilondhe/Portfolio-AditiLondhe.git
+cd Portfolio-AditiLondhe
+```
+
+### **2. Install Dependencies**
+```sh
+npm install
+```
+
+### **3. Run the Development Server**
+```sh
+npm run dev
+```
+
+### **4. Build for Production**
+```sh
+npm run build
+```
+
