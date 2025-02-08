@@ -1,22 +1,23 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import foodmoodImg from "../../assets/foodmoodimage.png";
+import portfolioImg from "../../assets/portfoliowebsite.png";
 
 const Projects = () => {
   return (
-    <div id="Projects" className="p-10 md:p-24 text-white ">
+    <div id="Projects" className="p-10 md:p-24 text-white">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
-      <div className="py-12 px-8 flex flex-wrap gap-5">
+      <div className="py-12 px-8 flex flex-wrap gap-12 justify-center">
         <ProjectCard
-          title="Blogging Website"
-          main="this is a bloggin website created in next js and used some component library used some component library"
+          title="FoodMood"
+          main="A MERN stack food ordering platform with secure authentication, admin panel, payment processing, and order management."
+          image={foodmoodImg}
         />
+
         <ProjectCard
-          title="Youtue Clone"
-          main="this is a bloggin website created in next js and used some component library used some component library"
-        />
-        <ProjectCard
-          title="Netflix Clone"
-          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
+          title="Portfolio"
+          main="A sleek and responsive personal portfolio showcasing projects, skills, and experience using modern web technologies."
+          image={portfolioImg}
         />
       </div>
     </div>

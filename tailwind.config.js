@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        
+        'dancing-script': ['Dancing Script', 'cursive'],
+        'lavishly-yours': ['Lavishly Yours', 'cursive'],
+      },
+    },
   },
   plugins: [],
 };

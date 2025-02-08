@@ -5,3 +5,22 @@
 * {
   scroll-behavior: smooth;
 }
+.italianno-regular {
+  font-family: "Italianno", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font: weight 400px;
+  font-style: normal;
+}
+
+.lavishly-yours-regular {
+  font-family: "Lavishly Yours", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
