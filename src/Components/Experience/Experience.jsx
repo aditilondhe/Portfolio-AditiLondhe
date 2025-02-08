@@ -26,11 +26,12 @@ const Experience = () => {
             { Icon: FaCss3, color: "#1572B6" },
             { Icon: FaJs, color: "#F7DF1E" },
             { Icon: FaReact, color: "#61DAFB" },
+            { Icon: FaNodeJs, color: "#8CC84B" },
             { Icon: SiMongodb, color: "#47A248" },
             { Icon: SiMysql, color: "#00758F" },
             { Icon: FaFigma, color: "#F24E1E" },
             { Icon: SiCanva, color: "#00C4CC" },
-            { Icon: FaNodeJs, color: "#8CC84B" },
+
             { Icon: SiCplusplus, color: "#00599C" },
             { Icon: FaJava, color: "#E76F00" },
           ].map(({ Icon, color }, index) => (
